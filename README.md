@@ -10,7 +10,7 @@ Use this to quickly get started building a Lambda application using the Flask fr
 
 ## WHY NOT USE THIS?
 
-If you are building a Lambda function that will not communicate over http, then this will not help.
+If you are building a Lambda function that will not communicate over HTTP, then this will not help.
 
 ## USAGE
 
