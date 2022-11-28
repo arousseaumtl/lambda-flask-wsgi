@@ -12,4 +12,5 @@ if [ $# -eq 0 ]
   else
     [[ "$@" =~ "--run" || "$@" =~ "-r" ]] && ( echo $MESSAGE; docker run -p 5000:5000 --env-file ./vars.env --rm $FUNCTION_NAME )
     [[ "$@" =~ "--build" || "$@" =~ "-b" ]] && ( docker build -t $FUNCTION_NAME:latest . )
+    [[ "$@" =~ "--tty" || "$@" =~ "-t" ]] &&  ( docker run --rm -it --entrypoint /bin/sh $FUNCTION_NAME  )
 fi
