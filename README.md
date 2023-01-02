@@ -1,7 +1,7 @@
 ## WHAT IS THIS?
 
 This project will scaffold a basic Flask application and provide a streamlined way to package it as a container for use as an AWS 
-Lambda function. The Lambda can be interacted with over HTTP protocol through  API Gateway, or Lambda function url. This 
+Lambda function. The Lambda can be interacted with over HTTP protocol through API Gateway (REST or Simple), or Lambda function url. This 
 project can also be used to take existing Flask applications and adapt them for use as an AWS Lambda function.
 
 ## WHY USE THIS?
